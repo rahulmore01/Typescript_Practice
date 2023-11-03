@@ -6,7 +6,7 @@ type User = {
   name: string;
   email: string;
   isAdmin: boolean;
-  //   if user dont want to provide AbstractRange, that onkeydown, no error
+  //   if user dont want to provide age, it can be empty
   age?: number;
 };
 // taking empty function for example
